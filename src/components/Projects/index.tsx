@@ -4,7 +4,7 @@ import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-const index = () => {
+const Index = () => {
   const [selectedProject, setSelectedProject] = useState(0);
   const projects = [
     {
@@ -85,4 +85,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
