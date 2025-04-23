@@ -32,7 +32,7 @@ const index = () => {
     ScrollTrigger.create({
       trigger: imageContainer.current,
       pin: true,
-      start: "top-=100px",
+      start: "top-=70px",
       end: document.body.offsetHeight - window.innerHeight - 50,
     });
   }, []);
