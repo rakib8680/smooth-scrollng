@@ -2,12 +2,12 @@
   width: 100%;
   height: 140vh;
   position: absolute;
-  filter: brightness(60%);
+  filter: brightness(80%);
 }
 
 .backgroundImage img {
   object-fit: cover;
-  filter: blur(2px);
+  /* filter: blur(2px); */
 }
 /* .intro {
   display: flex;
@@ -33,10 +33,10 @@
 .introImage {
   position: absolute;
   width: 350px;
-  height: 475px !important;
+  height: 475px;
 }
 
 .introImage img {
   object-fit: cover;
-  object-position: top;
+  object-position: top !important;
 }
