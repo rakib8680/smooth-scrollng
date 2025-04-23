@@ -34,7 +34,7 @@ const Index = () => {
   return (
     <div className={styles.intro}>
       <div ref={backgroundImage} className={styles.backgroundImage}>
-        <Image src={"/images/img1.jpg"} fill={true} alt="background" />
+        <Image src={"/images/img6.jpg"} fill={true} alt="background" />
       </div>
       <div className={styles.introContainer}>
         <div
@@ -43,7 +43,7 @@ const Index = () => {
           data-scroll-speed="0.3"
           className={styles.introImage}
         >
-          <Image src={"/images/img3.jpg"} fill={true} alt="intro" />
+          <Image src={"/images/img2.jpg"} fill={true} alt="intro" />
         </div>
         <h1 data-scroll data-scroll-speed="0.4">
           Smooth Scroll
