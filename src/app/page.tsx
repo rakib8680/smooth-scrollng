@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import styles from "./page.module.css";
+import Intro from "../components/intro";
 
 export default function Home() {
   useEffect(() => {
@@ -13,9 +14,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <div></div>
-      <div></div>
-      <div></div>
+      <Intro />
     </main>
   );
 }
